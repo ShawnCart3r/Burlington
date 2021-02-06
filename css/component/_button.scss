@@ -42,6 +42,15 @@
         }
         
         }
+        &--green{
+            background-color: $color-green-1;
+            color: $color-gold;
+      
+            &::after {
+              background-color: green;
+          }
+          
+          }
         
         &::after {
             content: "";
